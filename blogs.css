@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+div {
+    border: 1px solid green;
+}
+
+.col {
+    width: 100%;
+}
+
+.blogs-header {
+    display: block;
+}
+
+.search {
+    display: flex;
+}
+
+.list-info ul li img {
+    border-radius: 50%;
+}
+.list-info ul li a{
+    text-decoration: none;
+    color: #444;
+}
+.fa-search {color: white;
+    padding-left: 0px;
+    width: 55px;
+}
+
+ul li {
+    list-style: none;
+}
+.btn-search{
+    background-color: #c89979;
+    border: 0.5px solid  #c89979 ;
+    border-radius: 2px;
+}
+.image img{width: 100%;}
+.image{
+    position: relative;
+}
+.bg-cover{
+    height: auto;
+    background-size: cover;
+}
+
+.date-in{display: table-cell;
+margin: 0 auto;
+width: 40px;height: 40px;
+border-radius: 50%;
+text-align: center;
+background-color: #c89979;;
+}
+.date-month{
+    font-size: .7em;
+}
+.date-in span{color: white;}
+.date-day{line-height: .85;}
+.date-radious{
+    position: absolute;
+    top: 8%;
+    left: 8px;
+    line-height: .95;
+    font-weight: bolder;
+}
+.divider{
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px;
+}
